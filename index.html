@@ -33,6 +33,15 @@
             background-color: var(--bs-dark) !important;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
+        /* Hero Section with Background Image */
+        #home {
+            background: linear-gradient(rgba(26, 32, 44, 0.85), rgba(26, 32, 44, 0.85)), 
+                        url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Creates professional parallax effect */
+            min-height: 100vh;
+        }
 
         /* Customizing primary elements with the Red color */
         .btn-primary, .bg-primary, .progress-bar {
@@ -107,10 +116,10 @@
                 <div class="col-lg-12 mb-5 mb-lg-0">
                     <h1 class="display-3 fw-bolder mb-3 text-white">Hello, I'm  <span class="text-primary">Nirmala gehlot</span></h1>
                     
-                    <p class="lead mb-4 text-white-50 pe-lg-5">
+                    <p class="fs-5 text-white" style="color: var(--muted-text);">
                        Aspiring Developer| Masters of Computer Applications, 1st Year.
                     </p>
-                    <p class="fs-5 text-light" style="color: var(--muted-text);">
+                    <p class="fs-5 text-white" style="color: var(--muted-text);">
                        Building the digital foundation, one algorithm at a time.
                     </p>
            
@@ -235,7 +244,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold text-primary">SPACE DESIGN REDEFINED.</h5>
                             <p class="card-text small text-white-50">Designed complete UI/UX using accessibility.</p>
-                            <a href="https://aarohiverma528-beep.github.io/n2/" class="btn btn-outline-primary btn-sm mt-2">View Case Study</a>
+                            <a href="https://aarohiverma528-beep.github.io/n2/" class="btn btn-primary btn-sm mt-2">View Case Study</a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +267,7 @@
                                 <input type="email" class="form-control form-control-lg card-bg text-white" placeholder="Your Email" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control form-control-lg card-bg text-white" rows="6" placeholder="Your Message..." required></textarea>
+                                <textarea class="form-control form-control-lg card-bg text-white" rows="6" placeholder="Your Message..." required style="resize:none;"></textarea>
                             </div>
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn btn-primary btn-lg mt-3 px-5 shadow">Stay Connected</button>
@@ -275,7 +284,7 @@
         <div class="row text-center text-md-start">
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ff3366; ;">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ffff; ;">
                     Nirmala gehlot
                 </h5>
                 <p class="small text-secondary">
@@ -284,12 +293,12 @@
                 </p>
                 <div class="mt-4">
                     <p class="mb-0"><i class="fas fa-code me-2"></i> MCA (Master's of Computer Applications)</p>
-                    <p><i class="fas fa-university me-2"></i> [Star Infotech College Ajmer/VGU jaipur]</p>
+                    <p> Star Infotech College Ajmer/VGU jaipur</p>
                 </div>
             </div>
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ff3366;">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ffff;">
                     Quick Links
                 </h5>
                 <p>
@@ -310,17 +319,17 @@
             </div>
 
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ff3366; ">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color:  #ffff; ">
                     Contact Info
                 </h5>
                 <p class="small">
-                    <i class="fas fa-home me-3" style="color:  #ff3366; ;"></i> [Ajmer]
+                    <i class="fas fa-home me-3" style="color:  #ffff; ;"></i> Ajmer
                 </p>
                 <p class="small">
-                    <i class="fas fa-envelope me-3" style="color:  #ff3366; ;"></i> nirmalagehlot803@gmail.com
+                    <i class="fas fa-envelope me-3" style="color:  #ffff; ;"></i> nirmalagehlot803@gmail.com
                 </p>
                 <p class="small">
-                    <i class="fas fa-phone me-3" style="color:  #ff3366; ;"></i> +91 123 456 7890
+                    <i class="fas fa-phone me-3" style="color:  #ffff; ;"></i> +91 123 456 7890
                 </p>
                 
             </div>
@@ -332,7 +341,7 @@
             <div class="col-md-7 col-lg-12" >
                 <p class="small text-secondary text-md-start justify-content-center">
                     &copy; 2025 | Developed with <i class="fas fa-heart text-danger mx-1"></i> by 
-                    <strong class="text-white text-center">[Nirmala gehlot]</strong>. All Rights Reserved.
+                    <strong class="text-white text-center">Nirmala gehlot</strong>. All Rights Reserved.
                 </p>
             </div>
         </div>
@@ -365,3 +374,4 @@
 </body>
 
 </html>
+
